@@ -1,32 +1,15 @@
-# Prerequisites
-*.d
+root = true
 
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
+[*]
+charset = utf-8
+end_of_line = lf
+trim_trailing_whitespace = true
+insert_final_newline = true
 
-# Precompiled Headers
-*.gch
-*.pch
+[*.{pl,plugin}]
+indent_style = space
+indent_size = 4
 
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
-
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
-
-# Executables
-*.exe
-*.out
-*.app
+[*.{xml,tmpl}]
+indent_style = space
+indent_size = 2
